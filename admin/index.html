@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Johnson - Web Developer Portfolio</title>
+    <!-- Updated CSS path -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">AJ</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+            
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Alex Johnson</span></h1>
+                <p class="hero-subtitle">Full Stack Web Developer & Designer</p>
+                <p class="hero-description">I create beautiful, functional websites that make a difference.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="projects.php" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg width="200" height="200" viewBox="0 0 200 200">
+                            <circle cx="100" cy="100" r="90" fill="#6366f1"/>
+                            <circle cx="100" cy="80" r="30" fill="#fff"/>
+                            <path d="M 40 150 Q 100 120 160 150" fill="#fff"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Hello! I'm Alex Johnson</h3>
+                    <p>Passionate web developer with 3+ years of experience in creating beautiful, functional websites. I love turning complex problems into simple, elegant solutions.</p>
+                    <p>My journey into web development started during college when I built my first website. Since then, I've been constantly learning and growing, working on diverse projects from e-commerce platforms to web applications.</p>
+                    <p>I specialize in full-stack development with a focus on creating responsive, user-friendly interfaces that provide exceptional user experiences.</p>
+                    <div class="about-info">
+                        <div class="info-item"><strong>Email:</strong> alex.johnson@example.com</div>
+                        <div class="info-item"><strong>Phone:</strong> +1 (555) 123-4567</div>
+                        <div class="info-item"><strong>Location:</strong> San Francisco, CA</div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/alexjohnson" target="_blank" class="social-link">GitHub</a>
+                        <a href="https://linkedin.com/in/alexjohnson" target="_blank" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid" id="skillsContainer">
+                <div class="skill-card">
+                    <h3>HTML5</h3>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                    <span class="skill-level">95%</span>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS3</h3>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                    <span class="skill-level">90%</span>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    <span class="skill-level">85%</span>
+                </div>
+                <div class="skill-card">
+                    <h3>PHP</h3>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                    <span class="skill-level">80%</span>
+                </div>
+                <div class="skill-card">
+                    <h3>MySQL</h3>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                    <span class="skill-level">75%</span>
+                </div>
+                <div class="skill-card">
+                    <h3>Git</h3>
+                    <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    <span class="skill-level">85%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-description">Have a project in mind? Let's work together!</p>
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form" method="POST" action="contact.php">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Alex Johnson. All rights reserved.</p>
+            <p>Built with HTML, CSS, JavaScript, and PHP</p>
+        </div>
+    </footer>
+
+    <!-- Updated JS path -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+# portfolio-site
+
+A clean, modern personal portfolio website built with **HTML, CSS, JavaScript**, and **PHP** for backend functionality.  
+Includes a working contact form and a simple PHP login system with default credentials.
+
+---
+
+## Demo Login Details
+
+To access the login-protected page, use:
+
+**Username:** admin  
+**Password:** Admin123  
+
+You can change these credentials inside `login.php`.
+
+---
+
+## Features
+
+- Fully responsive design  
+- Clean navigation with mobile hamburger menu  
+- Hero section with profile image  
+- Full About page (personal story, values, education, work)  
+- PHP-powered Login page  
+- PHP-powered Contact form  
+- Organized and editable folder structure  
+- Ready for customization  
+- Beginner-friendly code  
+
+---
+
+## Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- PHP (backend)  
+- Optional: MySQL (if you enable database login later)
+
+---
+
+## Requirements
+
+Make sure you have:
+
+- PHP 7 or higher  
+- Local server environment:
+  - XAMPP  
+  - WAMP  
+  - MAMP  
+  - LAMP  
+
+Because this project contains PHP, it **cannot run on GitHub Pages**. You must run it on a local server.
+
+---
+
+## How to Run the Project Locally
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/portfolio-site.git
