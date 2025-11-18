@@ -1,37 +1,61 @@
 # portfolio-site
 
-A clean, modern personal portfolio website with **HTML, CSS, JavaScript**, and **PHP** for backend functionality.  
+A clean, modern personal portfolio website built with **HTML, CSS, JavaScript**, and **PHP** for backend functionality.  
+Includes a working contact form and a simple PHP login system with default credentials.
 
-Includes login and contact form handling using PHP. Fully responsive and mobile-friendly.
+---
 
-## Demo
+## Demo Login Details
 
-Since this project uses PHP, you need a local server to run it (XAMPP, WAMP, MAMP, or LAMP).
+To access the login-protected page, use:
+
+**Username:** admin  
+**Password:** Admin123  
+
+You can change these credentials inside `login.php`.
 
 ---
 
 ## Features
 
-- Responsive navigation bar with mobile hamburger menu
-- Hero section with profile image and introduction
-- About me section with personal info
-- Core values and philosophy
-- Education and work experience
-- Contact form (PHP backend)
-- Login page (PHP backend)
-- Footer with social links
+- Fully responsive design  
+- Clean navigation with mobile hamburger menu  
+- Hero section with profile image  
+- Full About page (personal story, values, education, work)  
+- PHP-powered Login page  
+- PHP-powered Contact form  
+- Organized and editable folder structure  
+- Ready for customization  
+- Beginner-friendly code  
+
+---
+
+## Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- PHP (backend)  
+- Optional: MySQL (if you enable database login later)
 
 ---
 
 ## Requirements
 
-- PHP 7+  
-- MySQL (optional, if login uses database)  
-- Local server software: XAMPP, WAMP, MAMP, or LAMP
+Make sure you have:
+
+- PHP 7 or higher  
+- Local server environment:
+  - XAMPP  
+  - WAMP  
+  - MAMP  
+  - LAMP  
+
+Because this project contains PHP, it **cannot run on GitHub Pages**. You must run it on a local or live server.
 
 ---
 
-## How to Run Locally
+## How to Run the Project Locally
 
 1. **Clone the repository**
 ```bash
